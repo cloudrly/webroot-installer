@@ -1,6 +1,6 @@
 <?php
 
-namespace cloudrly\Composer;
+namespace Cloudrly\Composer;
 
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
