@@ -1,5 +1,6 @@
 {
     "name": "cloudrly/webroot-installer",
+    "description": "Installs files/package in a webroot directory",
     "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
