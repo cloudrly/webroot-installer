@@ -1,6 +1,6 @@
 <?php
 
-namespace Cloudrly\Composer;
+namespace Cloudrly\Composer\WebRoot;
 
 use Composer\Composer;
 use Composer\IO\IOInterface;

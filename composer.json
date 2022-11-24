@@ -3,14 +3,25 @@
     "description": "Installs files/package in a webroot directory",
     "type": "composer-plugin",
     "license": "MIT",
+    "keywords": [
+        "composer",
+        "dependency",
+        "tool",
+        "webroot",
+        "install",
+        "wordpress"
+    ],
+    "require": {
+        "php": "^7.2.5 || ^8.0",
+        "composer-plugin-api": "^2.3"
+    },
     "autoload": {
-        "psr-0": {"Cloudrly\\Composer": "src/"}
+        "psr-4": {
+            "Cloudrly\\Composer\\WebRoot\\": "src"
+        }
     },
     "extra": {
         "class": "Cloudrly\\Composer\\WebRootInstallerPlugin"
-    },
-    "require": {
-        "composer-plugin-api": "^2.3"
     },
     "require-dev": {
         "composer/composer": "^2.4"
