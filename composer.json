@@ -21,7 +21,7 @@
         }
     },
     "extra": {
-        "class": "Cloudrly\\Composer\\WebRootInstallerPlugin"
+        "class": "Cloudrly\\Composer\\WebRoot\\WebRootInstallerPlugin"
     },
     "require-dev": {
         "composer/composer": "^2.4"
