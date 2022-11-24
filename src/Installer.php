@@ -5,7 +5,7 @@ namespace cloudrly\Composer;
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
 
-class TemplateInstaller extends LibraryInstaller
+class WebRootInstaller extends LibraryInstaller
 {
 
     const INSTALLER_TYPE = 'webroot';

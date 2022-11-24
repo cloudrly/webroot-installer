@@ -6,11 +6,11 @@ use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
 
-class TemplateInstallerPlugin implements PluginInterface
+class WebRootInstallerPlugin implements PluginInterface
 {
     public function activate(Composer $composer, IOInterface $io)
     {
-        $installer = new TemplateInstaller($io, $composer);
+        $installer = new WebRootInstaller($io, $composer);
         $composer->getInstallationManager()->addInstaller($installer);
     }
 }
